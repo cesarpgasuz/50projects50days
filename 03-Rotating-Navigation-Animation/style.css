@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+   background-color: #333333;
+   position: relative;
+   overflow-x: hidden;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+p{
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    
+}
+
+.container{
+    height: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10% 15%;
+    transition: all 1s; 
+    transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+}
+.container.active{
+   
+    transform: rotate(-25deg);
+    transition: all 1s;
+}
+.container span{
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 15px;
+    display: block;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.circle{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #5A5B89;
+    border-radius: 100px;
+    position: fixed;
+    left: -100px;
+    top: -100px;
+    transition: all 1s;
+    z-index: 10;
+}
+.circle span svg{
+    color: white;
+    height: 36px;
+    width: 36px;
+}
+.circle span{
+    position: absolute;
+    cursor: pointer;
+}
+.circle span:nth-child(1){
+    bottom: 35px;
+    left: 35px;
+}
+.circle span:nth-child(2){
+    bottom: 30px;
+    right: 40px;
+}
+.referencia{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.circle.active{
+    rotate: -90deg;
+    transition: all 1s;
+}
+nav{
+    position: fixed;
+    bottom: 5%;
+    left: -100%;
+    transition: all 1s;
+}
+nav.show{
+    left: 0;
+    transition: all 1s;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+ul li svg{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+ul li:nth-child(2){
+    transform: translateX(25px);
+    transition: all 1s;
+    transition-delay: 1s;
+}
+ul li:nth-child(3){
+    transform: translateX(45px);
+    transition: all 1s;
+    transition-delay: 1.5s;
+}

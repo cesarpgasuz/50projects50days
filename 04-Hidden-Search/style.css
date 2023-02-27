@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+.busqueda{
+    position: relative;
+}
+.busqueda input{
+    border: 0;
+    outline: 0;
+    width: 350px;
+    height: 50px;
+    padding: 5px 25px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.icon{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.busqueda.active input{
+    width: 50px;
+    transition: 0.5s;
+}
+

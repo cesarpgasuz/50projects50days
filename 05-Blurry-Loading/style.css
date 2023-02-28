@@ -22,7 +22,7 @@ body{
     left: -30px;
     width: calc(100vw + 60px);
     height: calc(100vh + 60px);
-     background: url('imagen.webp');
+     background: url('imagen.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,7 +30,7 @@ body{
 }
 
 #contador{
-    font-size: 60px;
+    font-size: 72px;
     position: absolute;
     left: 50%;
     top: 50%;

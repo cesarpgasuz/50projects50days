@@ -10,3 +10,4 @@
 | 04 | Hidden Search                 | [Demo](https://cesarpgasuz.xyz/50projects50days/04-Hidden-Search/)                 | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/04-Hidden-Search)                 |
 | 05 | Blurry Loading				 | [Demo](https://cesarpgasuz.xyz/50projects50days/05-Blurry-Loading/)                | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/05-Blurry-Loading)                |
 | 06 | Scroll Animation              | [Demo](https://cesarpgasuz.xyz/50projects50days/06-Scroll-Animation/)              | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/06-Scroll-Animation)              |
+| 07 | Split Landing Page            | [Demo](https://cesarpgasuz.xyz/50projects50days/07-Split-Landing-Page/)            | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/07-Split-Landing-Page)            |

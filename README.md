@@ -12,3 +12,4 @@
 | 06 | Scroll Animation              | [Demo](https://cesarpgasuz.xyz/50projects50days/06-Scroll-Animation/)              | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/06-Scroll-Animation)              |
 | 07 | Split Landing Page            | [Demo](https://cesarpgasuz.xyz/50projects50days/07-Split-Landing-Page/)            | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/07-Split-Landing-Page)            |
 | 08 | Form Wave                     | [Demo](https://cesarpgasuz.xyz/50projects50days/08-Form-Wave/)                     | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/08-Form-Wave)                     |
+| 09 | Sound Board                   | [Demo](https://cesarpgasuz.xyz/50projects50days/09-Sound-Board/)                   | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/09-Sound-Board)                   |

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(231 231 231);
+    flex-direction: column;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.card{
+    width: 500px;
+    background-color: white;
+    margin-bottom: 35px;
+    position: relative;
+    border: 1px solid #9b9b9b;
+}
+h4{
+    background-color: #c7c7c7;
+    padding: 15px;
+  
+}
+p{
+    height: 0;
+    padding: 0;
+    overflow-y: hidden;
+
+}
+.card.active p{
+    
+    padding: 25px;
+    height: auto;
+}
+.boton{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    cursor: pointer;
+}
+.boton::before{
+    content: '🔽';
+}
+
+.card.active .boton::before{
+    content: '❌';
+}

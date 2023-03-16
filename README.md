@@ -17,3 +17,4 @@
 | 11 | Faq Collapse                  | [Demo](https://cesarpgasuz.xyz/50projects50days/11-Faq-Collapse/)                  | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/11-Faq-Collapse)                  | 
 | 12 | Random Choise Picker			 | [Demo](https://cesarpgasuz.xyz/50projects50days/12-Random-Choise-Picker/)          | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/12-Random-Choise-Picker/)         | 
 | 13 | Animate Navigation    		 | [Demo](https://cesarpgasuz.xyz/50projects50days/13-Animate-Navigation/)            | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/13-Animate-Navigation/)           | 		
+| 14 | Incrementing Counter    		 | [Demo](https://cesarpgasuz.xyz/50projects50days/14-Incrementing-Counter/)          | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/14-Incrementing-Counter/)         | 	

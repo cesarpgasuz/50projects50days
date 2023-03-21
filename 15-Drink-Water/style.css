@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(16 96 205);
+    color: white;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.meta{
+    margin-bottom: 20px;
+}
+.botella{
+    width: 150px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 6px #013199;
+    overflow-y: hidden
+}
+#restante{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    transition: all 0.2s;
+    
+}
+#porcentaje{
+    width: 100%;
+    background-color: #38b9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 25px 25px;
+    color: #013199;
+    font-size: 24px;
+    font-weight: bold;
+    height: 0;
+    transition: all 0.2s;
+}
+
+.text-vasos{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.vasos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+.vaso{
+    width: 35px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0px 0px 0px 4px #013199;
+    color: #013199;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.vaso.active{
+    background-color: #38b9ff;
+}

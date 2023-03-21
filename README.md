@@ -18,3 +18,5 @@
 | 12 | Random Choise Picker			 | [Demo](https://cesarpgasuz.xyz/50projects50days/12-Random-Choise-Picker/)          | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/12-Random-Choise-Picker/)         | 
 | 13 | Animate Navigation    		 | [Demo](https://cesarpgasuz.xyz/50projects50days/13-Animate-Navigation/)            | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/13-Animate-Navigation/)           | 		
 | 14 | Incrementing Counter    		 | [Demo](https://cesarpgasuz.xyz/50projects50days/14-Incrementing-Counter/)          | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/14-Incrementing-Counter/)         | 	
+| 15 | Drink Water           		 | [Demo](https://cesarpgasuz.xyz/50projects50days/15-Drink-Water/)                   | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/15-Drink-Water/)                  | 	
+| 16 | Modals               		 | [Demo](https://cesarpgasuz.xyz/50projects50days/16-Modals/)                        | [Repository](https://github.com/cesarpgasuz/50projects50days/tree/main/16-Modals/)                       | 	

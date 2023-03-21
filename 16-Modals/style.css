@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(118 139 153);
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #1e4158;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px
+}
+
+.container button{
+    padding: 10px 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: blueviolet;
+}
+
+.modal{
+    background-color: white;
+    width: 320px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.modal button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.modal.active{
+    top: 50%;
+    transition: all 0.5s;
+}

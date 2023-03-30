@@ -227,6 +227,7 @@ figure img{
     figure img {
         width: 125px;
         height: 100%;
+        object-fit: cover;
     }
     .card:hover .descripcion{
         height: 100%;

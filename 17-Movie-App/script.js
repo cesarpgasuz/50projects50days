@@ -130,7 +130,7 @@ function mostrar(resultados){
                         </ul>
                     </div>
                     <div class="descripcion">
-                        <h4>Descripción</h4>
+                        <h4>Sinopsis</h4>
                         <p>${descripcion}</p>
                     </div>
                 `;

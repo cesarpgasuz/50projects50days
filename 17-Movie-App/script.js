@@ -3,7 +3,7 @@ const formulario = document.querySelector('#form');
 const termino = document.querySelector('#termino');
 const home = document.querySelector('#home');
 
-const apiKey = key_tmdb;
+const apiKey = `${key_tmdb}`;
 const urlDB = 'https://api.themoviedb.org/3/movie/popular';
 const url = `${urlDB}?api_key=${apiKey}&language=es-Es&page=1`;
 
